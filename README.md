@@ -10,22 +10,18 @@ It includes a Python backend for processing receipts via API.
 
 ### 1. Clone the Repository
 
-```bash
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/samueljshih/fetch.git
+
+cd sam_receipt_processor
 
 ### 2. Set Up a Virtual Environment
-
-```bash
 python3 -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 ### 3. Install Dependencies
-```bash
 pip install -r requirements.txt
 
 ### 4. Run the API Server
-```bash
 uvicorn main:app --reload
+
 The app should now be running at:
 http://127.0.0.1:8000
